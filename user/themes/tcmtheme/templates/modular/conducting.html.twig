@@ -1,0 +1,25 @@
+<section id='conducting'>
+ 
+  <div class="row section-head">
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+  </div>
+  {% for row in page.header.blurbs %}
+  <div class="row feature {{row.blurbheader}}">
+
+      <div class="{% if row.image or row.video %}six{% else %}twelve{% endif %} columns  {% if row.align == true %}left{% else %}right{% endif %}">
+        <h3>{{ row.blurbheader }}</h3>
+        <p>{{ row.text }}</p>
+      </div>
+
+      <div class="{% if row.image or row.video %}six{% else %}twelve{% endif %} columns feature-media {% if row.align == true %}right{% else %}left{% endif %}">
+        {% if row.image %}
+          {{ page.media[row.image].html() }}
+        {% endif %}
+        
+      </div>
+
+    </div>
+  {% endfor %}
+
+</section>

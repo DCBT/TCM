@@ -1,0 +1,72 @@
+title: 'Tom Chester Music'
+default_lang: en
+author:
+  name: Tom
+  email: donnellebt@gmail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'TCMTheme is a custom Grav theme based on the Woo skeleton.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
+email: your-email@domain.com
+description: 'Tom Chester Music - musician, conductor, educator, composer'
+social:
+  -
+    url: '#'
+    icon: facebook
+  -
+    url: '#'
+    icon: twitter
+  -
+    url: '#'
+    icon: google-plus
+menu:
+  -
+    text: About
+    link: '#about'
+  -
+    text: Conducting
+    link: '#conducting'
+  -
+    text: Playing
+    link: '#playing'
+  -
+    text: Teaching
+    link: '#teaching'
+  -
+    text: Testimonials
+    link: '#testimonials'
+  -
+    text: Contact
+    link: '#contact'
+footer:
+  text: 'This is Photoshop''s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.'
+  address:
+    title: 'COME VISIT'
+    lines:
+      -
+        line: '1600 Amphitheatre Parkway'
+      -
+        line: 'Mountain View, CA'
+      -
+        line: '94043 US'
+  social_title: Socialize
+  contact:
+    title: 'CONTACT US'
+    lines:
+      -
+        text: 647.343.8234
+        url: '#'
+      -
+        text: 123.456.7890
+        url: '#'
+      -
+        text: someone@woosite.com
+        url: 'mailto:someone@woosite.com'

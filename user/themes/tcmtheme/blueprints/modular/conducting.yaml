@@ -1,0 +1,32 @@
+title: Conducting
+
+form: 
+    fields:
+      .title:
+        type: text
+        label: Title
+      header.blurbs:
+        name: blurb
+        type: list
+        style: vertical
+        label: Blurbs
+        fields:
+         .blurbheader:
+           type: text
+           label: Heading
+         .text:
+            type: editor
+            label: Text
+         .image:
+           type: pagemediaselect
+           label: Image
+         .align:
+           type: toggle
+           label: Alignment
+           highlight: 0
+           default: 0
+           options:
+             0: 'Left'
+             1: 'Right'
+           validate:
+             type: bool

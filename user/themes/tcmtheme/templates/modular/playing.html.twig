@@ -1,0 +1,25 @@
+<section id="playing">
+    <div class="row section-head">
+      <h2>{{ header.sectiontitle }}</h2>
+      <p>{{ header.sectionblurb }}</p>
+    </div>
+  <div class="row">
+    <div class="twelve columns">
+      <div id="screenshots-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+        {% for item in page.header.highlights %}
+        <div class="columns item">
+          <div class="item-wrap">
+            <a href="{{ page.url(true) }}/{{ item.image }}" data-imagelightbox="a" >
+              {{ page.media[item.image].cropZoom(700, 700).html( item.highlightdescription, item.highlightdescription) }}
+              <div class="overlay"></div>
+              <div class="link-icon">
+                <i class="icon-plus"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
