@@ -1,12 +1,11 @@
-cache/*
-logs/*
+
 .htaccess
 logs/*
 wamplangues
 wamplangues/*
 wampthemes
 wampthemes/*
-assets/*
+
 wordpress
 wordpress/*
 images/*
