@@ -63,11 +63,14 @@
     "archive": {
         "exclude": ["VERSION"]
     },
-    "scripts": {
-        "post-create-project-cmd": "bin/grav install",
-        "test": "vendor/bin/codecept run unit",
-        "test-windows": "vendor\\bin\\codecept run unit"
-    },
+  "scripts": {
+    "post-create-project-cmd": "bin/grav install",
+    "test": "vendor/bin/codecept run unit",
+    "test-windows": "vendor\\bin\\codecept run unit",
+    : [
+      "bin/grav install"
+    ]
+  },
     "extra": {
         "branch-alias": {
             "dev-develop": "1.x-dev"
