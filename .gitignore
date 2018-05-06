@@ -10,3 +10,4 @@ assets/*
 wordpress
 wordpress/*
 images/*
+/vendor/
