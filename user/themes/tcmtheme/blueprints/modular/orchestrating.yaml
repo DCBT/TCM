@@ -1,0 +1,22 @@
+title: Orchestrating
+
+form: 
+    fields:
+      header.sectiontitle:
+        type: text
+        label: Section Title
+      header.sectionblurb:
+        type: text
+        label: Short Blurb
+      header.highlights:
+        name: blurb
+        type: list
+        style: vertical
+        label: Highlights
+        fields:
+         .highlightdescription:
+           type: text
+           label: Description
+         .image:
+           type: pagemediaselect
+           label: Image

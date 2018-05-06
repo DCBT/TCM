@@ -1,0 +1,34 @@
+<section id="brass-teaching">
+
+  <div class="row section-head">
+    <h2>{{ header.sectiontitle }}</h2>
+    <p>{{ header.sectionblurb }}</p>
+  </div>
+
+  <div class="row">
+    <div class="pricing-tables bgrid-quarters s-bgrid-halves">
+      {% for column in page.header.lessons %}
+        <div class="column">
+          <div class="price-block">
+            <h3 class="plan-title">
+              <span class="{{column.lessonicon}}"></span>
+            </h3>
+            <h3>{{ column.lessonheader }}</h3>
+            <p class="plan-price"><span>{{ column.lessonnote }}</span></p>
+
+            <ul class="features">
+             
+               <li>{{ column.text }}</li> 
+
+            </ul>
+
+            <footer class="plan-sign-up">
+               <a class="button" href="#contact">Sign up now</a>
+            </footer>
+       </div> 
+     </div>
+   {% endfor %}
+ </div>
+</div>
+
+</section> 

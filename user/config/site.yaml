@@ -32,14 +32,17 @@ menu:
     text: About
     link: '#about'
   -
+    text: Brass Teaching
+    link: '#brass-teaching'
+  -
+    text: Piano Teaching
+    link: '#piano-teaching'
+  -
     text: Conducting
     link: '#conducting'
   -
-    text: Playing
-    link: '#playing'
-  -
-    text: Teaching
-    link: '#teaching'
+    text: Orchestrating
+    link: '#orchestrating'
   -
     text: Testimonials
     link: '#testimonials'

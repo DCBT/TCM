@@ -318,7 +318,7 @@ ul#nav li.current a { color: #E44151; }
 /* ------------------------------------------------------------------ */
 
 #conducting {
-   background: #A59092;
+   background: #FFF7F8;
    padding-top: 48px;
    padding-bottom: 48px;
    overflow: hidden;
@@ -352,10 +352,10 @@ ul#nav li.current a { color: #E44151; }
    border: 1px dashed #1E0A0A;
 }
 /*----------------------------------------------*/
-/*	e. teaching Section
+/*	e. piano teaching Section
 /*----------------------------------------------*/
 
-#teaching {
+#piano-teaching {
 	background: #F7F7F7;
    padding-top: 107px;
    padding-bottom: 68px;   
@@ -363,7 +363,7 @@ ul#nav li.current a { color: #E44151; }
    border-bottom: 2px solid #301010;
    text-align: center;
 }
-#teaching .price-block {
+#piano-teaching .price-block {
    background: #fff;
    border: 1px solid #E6E6E6;
    text-align: center;
@@ -422,87 +422,164 @@ ul.features li:nth-child(even) { }
    margin-bottom: 0px;
 }
 
-#teaching span.f001:before {
+           
+          
+/*----------------------------------------------*/
+/*	e. brass teaching Section
+/*----------------------------------------------*/
+
+#brass-teaching {
+	background: #DEF7F6;
+   padding-top: 107px;
+   padding-bottom: 68px;   
+   border-top: 2px solid #301010;
+   border-bottom: 2px solid #301010;
+   text-align: center;
+}
+#brass-teaching .price-block {
+   background: #fff;
+   border: 1px solid #E6E6E6;
+   text-align: center;
+   margin-bottom: 36px;
+}
+.plan-title {
+  	font: 15px/30px 'montserrat-regular', sans-serif;
+  	padding: 30px 20px 6px 20px;
+   margin-bottom: 0px;
+  	text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+.plan-title .fa {
+  	display: block;
+  	margin-bottom: 6px;
+   font-size: 26px;
+}
+.plan-price {
+	font-family: 'montserrat-bold', sans-serif;
+   font-size: 30px;
+   color: #333;
+	padding: 6px 30px 6px 30px;
+   margin-bottom: 0;
+	text-align: center;
+   letter-spacing: .5px;
+}
+.plan-price span {
+	font-family: 'opensans-light', sans-serif;
+	font-size: 15px;
+	color: #999;	
+	display: block;
+	margin-top: 0;
+}
+
+ul.features {
+   margin: 12px 0 0 0;
+   list-style: none;
+}
+ul.features li {
+   line-height: 39px;
+   margin-bottom: 0;
+}
+ul.features li:nth-child(odd) { }
+ul.features li:nth-child(even) { }
+
+.plan-sign-up {
+  	padding: 24px 15px;
+   margin: 0;
+   text-align: center;
+}
+.plan-sign-up .button {
+   font: 13px/24px 'montserrat-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin-bottom: 0px;
+}
+
+span.f001:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f001";
 }
 
-#teaching span.f0a3:before {
+span.f0a3:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f0a3";
 }
 
-#teaching span.f058:before {
+span.f058:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f058";
 }
           
-#teaching span.f1ae:before {
+span.f1ae:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f1ae";
 }
      
-#teaching span.f1b3:before {
+span.f1b3:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f1b3";
 }
-   #teaching span.f0eb:before {
+
+span.f0eb:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f0eb";
 }
      
-#teaching span.f004:before {
+span.f004:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f004";
 }  
-   #teaching span.f044:before {
+
+span.f044:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f044";
 }
      
-#teaching span.f001:before {
+span.f001:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f001";
 }  
- #teaching span.f4d8:before {
+
+span.f4d8:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f4d8";
 }
      
-#teaching span.f118:before {
+span.f118:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f118";
 }  
           
-    #teaching span.f005:before {
+span.f005:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f005";
 }
      
-#teaching span.f164:before {
+span.f164:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f164";
 } 
-     #teaching span.f091:before {
+
+span.f091:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f091";
 }
      
-#teaching span.f501:before {
+span.f501:before {
    font-family: 'FontAwesome';
   font-size: 60px;
    content: "\f501";
@@ -511,21 +588,21 @@ ul.features li:nth-child(even) { }
 
 
 /* ------------------------------------------------------------------ */
-/* c. playing
+/* c. orchestrating
 /* ------------------------------------------------------------------ */
 
-#playing {
+#orchestrating {
    background: #1E0A0A;
    padding-top: 48px;
    padding-bottom: 68px;
    border-top: 2px solid #000;
    border-bottom: 2px solid #000;
 }
-#playing h2 {
+#orchestrating h2 {
    color: #F2EFF0;
 }
 
-#playing p {
+#orchestrating p {
    color: #F2EFF0;
 }
 /* For high-res devices */
@@ -533,7 +610,7 @@ ul.features li:nth-child(even) { }
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
 
-   #playing {
+   #orchestrating {
       background: #301010;
       background-size: 397px 322px;
    }
@@ -541,7 +618,7 @@ ul.features li:nth-child(even) { }
 }
 
 /* Portfolio Content */
-#playing-wrapper .columns { padding: 0; }
+#orchestrating-wrapper .columns { padding: 0; }
 .item .item-wrap {
    background: #fff;
    overflow: hidden;

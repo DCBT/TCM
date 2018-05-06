@@ -13,9 +13,10 @@ content:
             - _showcase
             - _callout
             - _about
+            - _brass
+            - _piano
             - _conducting
-            - _playing
-            - _teaching
+            - _orchestrating
             - _testimonials
             - _contact
 ---
