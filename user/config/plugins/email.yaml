@@ -1,0 +1,20 @@
+enabled: true
+from: donnellebt@gmail.com
+from_name: 'Tom Chester Music'
+to: donnellebt@gmail.com
+to_name: 'Tom Chester Music'
+mailer:
+  engine: sendmail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+    user: tcmadmin
+    password: P3rrinisaho
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: text/html
+debug: false
+bcc: donnellebt@gmail.com
+reply_to: donnellebt@gmail.com
+reply_to_name: 'Tom Chester Music'

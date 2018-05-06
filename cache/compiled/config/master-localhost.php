@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1525641281,
-    'checksum' => 'bf6594794a7f97df7300a3712874947e',
+    'timestamp' => 1525643695,
+    'checksum' => '706d141e3943fe726b768d675f6b34f1',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1525571473
+            ],
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1525643695
             ],
             'plugins/simple_form' => [
                 'file' => 'user/config/plugins/simple_form.yaml',
@@ -138,25 +142,28 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
-                'from_name' => NULL,
-                'to' => NULL,
-                'to_name' => NULL,
+                'from' => 'donnellebt@gmail.com',
+                'from_name' => 'Tom Chester Music',
+                'to' => 'donnellebt@gmail.com',
+                'to_name' => 'Tom Chester Music',
                 'mailer' => [
                     'engine' => 'sendmail',
                     'smtp' => [
                         'server' => 'localhost',
                         'port' => 25,
                         'encryption' => 'none',
-                        'user' => '',
-                        'password' => ''
+                        'user' => 'tcmadmin',
+                        'password' => 'P3rrinisaho'
                     ],
                     'sendmail' => [
                         'bin' => '/usr/sbin/sendmail -bs'
                     ]
                 ],
                 'content_type' => 'text/html',
-                'debug' => false
+                'debug' => false,
+                'bcc' => 'donnellebt@gmail.com',
+                'reply_to' => 'donnellebt@gmail.com',
+                'reply_to_name' => 'Tom Chester Music'
             ],
             'error' => [
                 'enabled' => true,

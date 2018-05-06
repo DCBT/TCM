@@ -29,7 +29,7 @@ class __TwigTemplate_1891b309df05b1c704780fcb1ca3b60285db0b5e6125e04668a0579ce46
     </div>
   <div class=\"row\">
     <div class=\"twelve columns\">
-      <div id=\"screenshots-wrapper\" class=\"bgrid-quarters s-bgrid-thirds cf\">
+      <div id=\"orchestrating-wrapper\" class=\"bgrid-quarters s-bgrid-thirds cf\">
         ";
         // line 9
         $context['_parent'] = $context;
@@ -99,7 +99,7 @@ class __TwigTemplate_1891b309df05b1c704780fcb1ca3b60285db0b5e6125e04668a0579ce46
     </div>
   <div class=\"row\">
     <div class=\"twelve columns\">
-      <div id=\"screenshots-wrapper\" class=\"bgrid-quarters s-bgrid-thirds cf\">
+      <div id=\"orchestrating-wrapper\" class=\"bgrid-quarters s-bgrid-thirds cf\">
         {% for item in page.header.highlights %}
         <div class=\"columns item\">
           <div class=\"item-wrap\">
