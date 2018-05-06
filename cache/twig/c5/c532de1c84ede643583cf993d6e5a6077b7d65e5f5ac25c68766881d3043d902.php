@@ -40,9 +40,7 @@ class __TwigTemplate_1891b309df05b1c704780fcb1ca3b60285db0b5e6125e04668a0579ce46
           <div class=\"item-wrap\">
             <a href=\"";
             // line 12
-            echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
-            echo "/";
-            echo $this->getAttribute($context["item"], "image", array());
+            echo $this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), $this->getAttribute($context["item"], "image", array()), array(), "array"), "url", array(), "method");
             echo "\" data-imagelightbox=\"a\" >
               ";
             // line 13
@@ -79,7 +77,7 @@ class __TwigTemplate_1891b309df05b1c704780fcb1ca3b60285db0b5e6125e04668a0579ce46
 
     public function getDebugInfo()
     {
-        return array (  64 => 22,  49 => 13,  43 => 12,  39 => 10,  35 => 9,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  62 => 22,  47 => 13,  43 => 12,  39 => 10,  35 => 9,  27 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -103,7 +101,7 @@ class __TwigTemplate_1891b309df05b1c704780fcb1ca3b60285db0b5e6125e04668a0579ce46
         {% for item in page.header.highlights %}
         <div class=\"columns item\">
           <div class=\"item-wrap\">
-            <a href=\"{{ page.url(true) }}/{{ item.image }}\" data-imagelightbox=\"a\" >
+            <a href=\"{{ page.media[item.image].url() }}\" data-imagelightbox=\"a\" >
               {{ page.media[item.image].cropZoom(700, 700).html( item.highlightdescription, item.highlightdescription) }}
               <div class=\"overlay\"></div>
               <div class=\"link-icon\">

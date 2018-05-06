@@ -9,7 +9,7 @@
         {% for item in page.header.highlights %}
         <div class="columns item">
           <div class="item-wrap">
-            <a href="{{ page.url(true) }}/{{ item.image }}" data-imagelightbox="a" >
+            <a href="{{ page.media[item.image].url() }}" data-imagelightbox="a" >
               {{ page.media[item.image].cropZoom(700, 700).html( item.highlightdescription, item.highlightdescription) }}
               <div class="overlay"></div>
               <div class="link-icon">
