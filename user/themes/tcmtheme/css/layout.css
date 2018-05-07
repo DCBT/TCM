@@ -165,8 +165,10 @@ ul#nav li.current a { color: #E44151; }
 
 #hero {
    padding-top: 66px;
-   background: linear-gradient(to bottom, #1E0A0A, #301010);   /*#301010; #23292f url(img/hero-bg.png);*/
-   overflow: hidden;
+    overflow: hidden;
+   background: #1E0A0A; 
+   background: linear-gradient(to bottom, #1E0A0A, #301010);
+  
 }
 
 /* For high-res devices */
@@ -175,8 +177,7 @@ ul#nav li.current a { color: #E44151; }
 (min-resolution: 192dpi) {
 
 	#hero { 
-		background: #301010 url(img/hero-bg_@2X.png); 
-		background-size: 200px 200px;
+		 background: linear-gradient(to bottom, #1E0A0A, #301010);
 	}
   
 }
@@ -191,12 +192,14 @@ ul#nav li.current a { color: #E44151; }
    margin: 54px auto 24px auto;
 }
 .hero-text h1 {
-    font: 40px/1.2em 'montserrat-bold', sans-serif;
+    font: 40px/1.2em 'palatino', serif;
+    /*transform:scaleY(1.3);*/
    /*font: 40px/1.2em 'montserrat-regular', sans-serif;*/ 
+   /*text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);*/
    color: #FFF;
    padding: 0;
    margin: 0;
-   text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
+
 }
 
 /*
@@ -595,8 +598,8 @@ span.f501:before {
    background: #1E0A0A;
    padding-top: 48px;
    padding-bottom: 68px;
-   border-top: 2px solid #000;
-   border-bottom: 2px solid #000;
+   border-top: 2px solid #1E0A0A;
+   border-bottom: 2px solid #1E0A0A;
 }
 #orchestrating h2 {
    color: #F2EFF0;
@@ -715,8 +718,8 @@ span.f501:before {
    background: linear-gradient(to right, #82000C, #D21729 , #82000C); /*#D21729;*/
    padding-top: 72px;
    padding-bottom: 48px;
-   border-top: 5px solid #1E0A0A;
-   border-bottom: 5px solid #1E0A0A;
+   border-top: 15px solid #1E0A0A;
+   border-bottom: 15px solid #1E0A0A;
 }
 #call-to-action h1 {
    font: 18px/24px 'montserrat-bold', sans-serif;
@@ -747,7 +750,7 @@ span.f501:before {
    color: inherit;
 }
 #call-to-action p {
-   color: #000; 
+   color: #1E0A0A; 
    font-size: 17px; 
    padding-right: 5px; 
 }
@@ -1189,7 +1192,7 @@ a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #11ABB0; }
 #imagelightbox-caption {
 	text-align: center;
 	color: #fff;
-	background-color: #000;
+	background-color: #1E0A0A;
 	position: fixed;
 	z-index: 999;
 	left: 0;
