@@ -68,9 +68,8 @@
     "test": "vendor/bin/codecept run unit",
     "test-windows": "vendor\\bin\\codecept run unit",
     "compile": [
-      "php bin/grav install",
-      "php bin/grav install admin -y",
-      "php bin/gpm install recaptchacontact -y"
+      "php bin/grav install admin",
+      "php bin/gpm install recaptchacontact"
     ]
 
   },
