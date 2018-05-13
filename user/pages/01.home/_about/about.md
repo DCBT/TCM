@@ -2,34 +2,12 @@
 title: About
 ---
 
-![](abouttom.jpj.jpg?resize=200,200)Tom's been doing stuff since aaaaaages ago.  All sorts of stuff. I could go on for ages.
+![](abouttom.jpj.jpg?resize=200,200)Tom has been a professional musician all of his adult life. At age 16 he joined the Royal Marines Band Service, studying at the RM School of Music in Portsmouth, UK. During this time he travelled the world playing music, and in 2010 came to New Zealand. He liked it so much he decided to stay, and joined the Royal New Zealand Navy Band in 2012. His experience in the RNZ Navy Band took him travelling throughout NZ and the South Pacific, performing piano and French Horn.
 
-And in fact I will, as I am testing the image wrapping and positioning for this group of text.  Whee!
+Tom took up the baton of the North Shore Concert Band, and later Manukau Concert Band, winning top awards in the NZCBA Festival in both 2015 and 2016. Also in 2016, he was appointed Director of Music for the King’s College Band Program in which the Premier Band were invited to perform in the KBB Gala concert that year. A busy year for Tom, as during this time he also graduated from the University of Auckland with a Bachelors of Music in Classical Performance.
 
-Roads go ever ever on,
-Over rock and under tree,
-By caves where never sun has shone,
-By streams that never find the sea;
-Over snow by winter sown,
-And through the merry flowers of June,
-Over grass and over stone,
-And under mountains in the moon.
+Currently Tom works as a freelance musician playing French Horn for the Auckland Philharmonia Orchestra, and a number of orchestras around NZ as well as piano in his Lounge Duo _PTT._
 
-Roads go ever ever on,
-Under cloud and under star.
-Yet feet that wandering have gone
-Turn at last to home afar.
-Eyes that fire and sword have seen,
-And horror in the halls of stone
-Look at last on meadows green,
-And trees and hills they long have known.
+Tom has always taught whilst being a professional musician but has decided to devote himself to freelance work and teaching, wanting to pass on his wealth of knowledge and experience to  future generations.
 
-The Road goes ever on and on
-Down from the door where it began.
-Now far ahead the Road has gone,
-And I must follow, if I can,
-Pursuing it with eager feet,
-Until it joins some larger way,
-Where many paths and errands meet.
-
-This will need redoing - twig, yaml and md - once I've got the real info.
+ 

@@ -1,6 +1,6 @@
 ---
 sectiontitle: 'Brass Teaching'
-sectionblurb: 'Tom excels at communicating his vast knowledge. Although he specialises in brass instruments....'
+sectionblurb: 'Tom has been blessed with exceptional teachers. From an early age he was taught by Brian Taylor (Royal Northern College of Music), Gordon Campbell (Royal College of Music) and in more recent years Nicola Baker (APO, UoA). These talented mentors ensured Tom was taught to the highest international standards which he looks forward to sharing.'
 lessons:
     -
         lessonicon: f001

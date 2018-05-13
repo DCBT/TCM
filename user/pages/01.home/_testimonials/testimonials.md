@@ -1,8 +1,11 @@
 ---
-testimonials: 
-  - title: Steve Jobs
-    quote: Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-  - title: Mr. Adobe
-    quote: This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. 
+testimonials:
+    -
+        title: 'Mark Hobson'
+        quote: 'Tom is a natural teacher. It’s obvious he takes immense pride in all his work, ensuring the output is to the highest standards. He always seems to know the exact approach to take with each individual, communicating on just the right level to get results.'
+    -
+        title: 'Mr. Adobe'
+        quote: 'This is Photoshop''s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.'
 ---
+
 #What People Are Saying.
