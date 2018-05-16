@@ -353,7 +353,7 @@ ul#nav li.current a { color: #E44151; }
 #conducting div.feature {
    background-color: white;
    padding: 30px;
-   border: 1px dashed #1E0A0A;
+   border: 1px solid #E6E6E6;
 }
 /*----------------------------------------------*/
 /*	e. piano teaching Section
@@ -429,7 +429,7 @@ ul.features li:nth-child(even) { }
            
           
 /*----------------------------------------------*/
-/*	e. brass teaching Section
+/*	e.  teaching Section
 /*----------------------------------------------*/
 
 #teaching {
@@ -482,7 +482,7 @@ ul.features {
 }
 ul.features li {
    line-height: 39px;
-   margin-bottom: 0;
+   margin-bottom: 30px;
 }
 ul.features li:nth-child(odd) { }
 ul.features li:nth-child(even) { }

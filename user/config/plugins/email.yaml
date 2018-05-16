@@ -1,16 +1,16 @@
 enabled: true
-from: donnellebt@gmail.com
+from: tomchester13@gmail.com
 from_name: 'Tom Chester Music'
 to: donnellebt@gmail.com
 to_name: 'Tom Chester Music'
 mailer:
   engine: sendmail
   smtp:
-    server: localhost
-    port: 25
-    encryption: none
-    user: tcmadmin
-    password: P3rrinisaho
+    server: smtp.sendgrid.net
+    port: 465
+    encryption: ssl
+    user: apikey
+    password: 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
   sendmail:
     bin: '/usr/sbin/sendmail -bs'
 content_type: text/html
