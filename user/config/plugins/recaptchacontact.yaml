@@ -3,4 +3,5 @@ default_lang: en
 disable_css: false
 inject_template: true
 grecaptcha_sitekey: 6LeXslkUAAAAAKIl-_E-4N7tdxJU3EDsINnGWH3R
+grecaptcha_secret: 'your secret-g-recaptcha-key'
 grecaptcha_callback: false

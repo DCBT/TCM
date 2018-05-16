@@ -14,7 +14,7 @@ mailer:
   sendmail:
     bin: '/usr/sbin/sendmail -bs'
 content_type: text/html
-debug: false
+debug: true
 bcc: donnellebt@gmail.com
 reply_to: donnellebt@gmail.com
 reply_to_name: 'Tom Chester Music'
