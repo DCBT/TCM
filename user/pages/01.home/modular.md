@@ -13,8 +13,7 @@ content:
             - _showcase
             - _callout
             - _about
-            - _brass
-            - _piano
+            - _teaching
             - _conducting
             - _orchestrating
             - _testimonials

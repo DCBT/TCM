@@ -1,0 +1,31 @@
+title: Teaching
+
+form: 
+    fields:
+      header.sectiontitle:
+        type: text
+        label: Section Title
+      header.sectionblurb:
+        type: editor
+        label: Short Blurb
+      header.lessons:
+        name: lesson
+        type: list
+        style: vertical
+        limit: 4
+        label: Lessons
+        fields:
+          .lessonimage:
+            type: filepicker
+            label: Select a file
+            preview_images: true
+          .lessonheader:
+            type: text
+            label: Heading
+          .lessonnote:
+            type: text
+            label: Lesson note (e.g. '30 or 60 minutes'')
+          .text:
+            type: editor
+            label: Text
+

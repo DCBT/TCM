@@ -13,4 +13,4 @@ buttons:
         class: 'button learn-more smoothscroll'
 ---
 
-Conductor &bull; Musician &bull; Educator &bull; Composer
+Conductor &bull; Musician &bull; Educator &bull; Orchestrator

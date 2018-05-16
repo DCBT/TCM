@@ -19,24 +19,18 @@ email: your-email@domain.com
 description: 'Tom Chester Music - musician, conductor, educator, composer'
 social:
   -
-    url: '#'
+    url: 'https://www.facebook.com/TomChesterMusic/'
     icon: facebook
   -
-    url: '#'
-    icon: twitter
-  -
-    url: '#'
-    icon: google-plus
+    url: 'https://www.instagram.com/chestert13/?hl=en'
+    icon: instagram
 menu:
   -
     text: About
     link: '#about'
   -
-    text: Brass Teaching
-    link: '#brass-teaching'
-  -
-    text: Piano Teaching
-    link: '#piano-teaching'
+    text: Teaching
+    link: '#teaching'
   -
     text: Conducting
     link: '#conducting'
@@ -50,26 +44,23 @@ menu:
     text: Contact
     link: '#contact'
 footer:
-  text: 'This is Photoshop''s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.'
+  text: 'Tom Chester Music provides quality musical support in the Auckland area, combining a wealth of knowledge with an unrelenting passion for making music.'
   address:
     title: 'COME VISIT'
     lines:
       -
-        line: '1600 Amphitheatre Parkway'
+        line: '13 Birdwood Avenue'
       -
-        line: 'Mountain View, CA'
+        line: 'Papatoetoe'
       -
-        line: '94043 US'
-  social_title: Socialize
+        line: 'Auckland 2025'
+  social_title: Socialise
   contact:
-    title: 'CONTACT US'
+    title: 'CONTACT'
     lines:
       -
-        text: 647.343.8234
+        text: 021 108 5939
         url: '#'
       -
-        text: 123.456.7890
-        url: '#'
-      -
-        text: someone@woosite.com
-        url: 'mailto:someone@woosite.com'
+        text: tomchester13@gmail.com
+        url: 'tomchester13@gmail.com'

@@ -6,17 +6,18 @@ form:
         type: text
         label: Section Title
       header.sectionblurb:
-        type: text
+        type: editor
         label: Short Blurb
       header.highlights:
         name: blurb
         type: list
         style: vertical
         label: Highlights
+        limit: 3
         fields:
-         .highlightdescription:
-           type: text
-           label: Description
-         .image:
-           type: pagemediaselect
+         header.highlights.image:
+           type: filepicker
            label: Image
+         header.highlights.caption:
+           type: text
+           label: Text

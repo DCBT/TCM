@@ -10,3 +10,8 @@ wordpress
 wordpress/*
 images/*
 /vendor/
+cache/compiled/*
+cache/gpm/*
+cache/twig/*
+cache/problem*
+cache/doctrine/*

@@ -1,4 +1,4 @@
-<section id="piano-teaching">
+<section id="teaching">
 
   <div class="row section-head">
     <h2>{{ header.sectiontitle }}</h2>
@@ -6,11 +6,15 @@
   </div>
 
   <div class="row">
-    <div class="pricing-tables bgrid-quarters s-bgrid-halves">
+    <div class="pricing-tables bgrid-halves s-bgrid-halves">
       {% for column in page.header.lessons %}
         <div class="column">
           <div class="price-block">
             <h3 class="plan-title">
+              
+              {% if column.lessonimage %}
+                  {{ page.media[column.lessonimage].html() }}
+              {% endif %}
               <span class="{{column.lessonicon}}"></span>
             </h3>
             <h3>{{ column.lessonheader }}</h3>

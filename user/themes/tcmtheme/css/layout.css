@@ -332,6 +332,7 @@ ul#nav li.current a { color: #E44151; }
 #conducting .feature {
    margin-top: 30px;
    margin-bottom: 54px;
+   	display: block;
 }
 #conducting .right {
    padding-left: 32px;
@@ -431,7 +432,7 @@ ul.features li:nth-child(even) { }
 /*	e. brass teaching Section
 /*----------------------------------------------*/
 
-#brass-teaching {
+#teaching {
 	background: #DEF7F6;
    padding-top: 107px;
    padding-bottom: 68px;   
@@ -439,7 +440,7 @@ ul.features li:nth-child(even) { }
    border-bottom: 2px solid #301010;
    text-align: center;
 }
-#brass-teaching .price-block {
+#teaching .price-block {
    background: #fff;
    border: 1px solid #E6E6E6;
    text-align: center;
@@ -603,6 +604,7 @@ span.f501:before {
 }
 #orchestrating h2 {
    color: #F2EFF0;
+   padding-bottom: 24px;
 }
 
 #orchestrating p {
@@ -728,9 +730,9 @@ span.f501:before {
    color: #fff;
 }
 #call-to-action h1 span { display: none; }
-#call-to-action .header-col h1:before {
+/*#call-to-action .header-col h1:before {
    font-family: 'FontAwesome';
-   content: "\f001";
+   content: "\f0a3";
 	padding-right: 18px;
 	padding-top: 6px;
 	font-size: 72px;
@@ -738,7 +740,7 @@ span.f501:before {
    text-align: center;
    float: right;
    color: #301010;  
-}
+}*/
 #call-to-action .action { margin-top: 18px; }
 #call-to-action .action .button { text-align: center; }
 #call-to-action h2 {
@@ -989,7 +991,7 @@ footer {
    padding-top: 84px;
    margin-bottom: 60px;
    background-color: #1E0A0A;
-   color: white;
+   color: #F76D7A;
    font-size: 13px;
    line-height: 24px;
    position: relative;   
@@ -1000,12 +1002,28 @@ footer a:hover, footer a:focus { color: #F76D7A; }
 
 footer .info { padding-right: 90px; }
 
+
+footer .footer-logo-block {
+  
+ 
+   margin-top: 54px;
+  
+}
+
+
+
 footer .footer-logo a {
    display: block;
+   float: left;
    margin-bottom: 12px;
-   margin-top: 12px;
+   margin-top: 5px;
    margin-left: 3px;
+   margin-right: 12px;
 }
+
+
+
+
 footer .footer-logo a img {
    height: 100px;
    width: 100px;
@@ -1022,7 +1040,7 @@ footer h3 {
    font: 13px/24px 'opensans-semibold', sans-serif;
    margin-bottom: 0;
    font-weight: normal;
-   color: #fff;
+   color: #D2172A;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -1032,7 +1050,7 @@ footer h3:before {
 	font-size: 30px;
    line-height: 48px;
    text-align: left;
-   color: #738291;
+   color: #D2172A;
    display: block;
 }
 footer h3.address:before { content: "\f041"; }
@@ -1048,7 +1066,7 @@ footer ul li {
    line-height: 24px;
 }
 footer ul li a,
-footer ul li a:visited { color: #3c4753; }
+footer ul li a:visited { color: #F76D7A; }
 footer ul li a:hover,
 footer ul li a:focus { color: #fff; }
 
@@ -1074,7 +1092,7 @@ footer .copyright {
 	display: block;
 	width: 60px;
 	height: 60px;
-	background: #82000C;
+	background: #D2172A;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;

@@ -1,25 +1,22 @@
 <section id='conducting'>
- 
+
   <div class="row section-head">
     <h2>{{ page.title }}</h2>
-    {{ content }}
   </div>
-  {% for row in page.header.blurbs %}
-  <div class="row feature {{row.blurbheader}}">
+  <div class="row feature">
+    {{ page.header.blurb }}
+  </div>
+  <div class="row">
+    <div class="bgrid-thirds s-bgrid-wholes">
+      {% for highlight in page.header.highlights %}
 
-      <div class="{% if row.image or row.video %}six{% else %}twelve{% endif %} columns  {% if row.align == true %}left{% else %}right{% endif %}">
-        <h3>{{ row.blurbheader }}</h3>
-        <p>{{ row.text }}</p>
-      </div>
+      <div class="column">
 
-      <div class="{% if row.image or row.video %}six{% else %}twelve{% endif %} columns feature-media {% if row.align == true %}right{% else %}left{% endif %}">
-        {% if row.image %}
-          {{ page.media[row.image].html() }}
+        {% if highlight.image %}
+        <img src="{{ page.media[highlight.image].url() }}" alt="{{ highlight.alttext }}" />
         {% endif %}
-        
       </div>
-
+      {% endfor %}
     </div>
-  {% endfor %}
-
+  </div>
 </section>

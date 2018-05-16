@@ -2,31 +2,23 @@ title: Conducting
 
 form: 
     fields:
-      .title:
+      header.title:
         type: text
         label: Title
-      header.blurbs:
-        name: blurb
+      header.blurb:
+        type: editor
+        label: Blurb
+      header.highlights:
+        name: highlights
         type: list
         style: vertical
-        label: Blurbs
+        label: Images
+        limit: 3
         fields:
-         .blurbheader:
-           type: text
-           label: Heading
-         .text:
-            type: editor
-            label: Text
-         .image:
-           type: pagemediaselect
-           label: Image
-         .align:
-           type: toggle
-           label: Alignment
-           highlight: 0
-           default: 0
-           options:
-             0: 'Left'
-             1: 'Right'
-           validate:
-             type: bool
+          .image:
+            type: filepicker
+            label: Select a file
+            preview_images: true
+          .alttext:
+            type: text
+            label: Alt Text
