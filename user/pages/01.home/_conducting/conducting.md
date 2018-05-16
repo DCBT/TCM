@@ -1,6 +1,6 @@
 ---
 title: Conducting
-blurb: "EXPERIENCED.\r\nTom began conducting at X and has worked with bands ranging from gfsdhjkghdfjklghdfjkghdfjk\r\n\r\nCREATIVE.\r\nAs a conductor, Tom tackles any repertoire with dedication and confidence, no matter how complex or obscure. With a passion for...\r\n\r\nAMBITIOUS.\r\nNever settling for \"good enough\", Tom has a flair for getting the best out of any group, leading them to surpass themselves."
+blurb: "Tom began conducting in 2014 under strict tutelage from Maestro Uwe Grodd (MSO). He took up the baton of the North Shore Concert Band, and later Manukau Concert Band, winning top awards in the NZCBA Festival in both 2015 and 2016. Also in 2016, he was appointed Director of Music for the King’s College Band Program in which the Premier Band were invited to perform in the KBB Gala concert that year. \r\n\r\nHighlights of his conducting career include conducting the Finale of Saint Saens' Organ Symphony in Auckland Town Hall, and Director of Music for Sony Recording Artist [Rebecca Nelson](http://rebeccanelson.co.nz/)'s album launch.\r\n"
 highlights:
     -
         image: feature-image-1.png
