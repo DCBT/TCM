@@ -1,49 +1,57 @@
 <footer>
-    <div class="row">         
-        <div class="six columns info">
-            <div class="footer-logo footer-logo-block">
-                <a href="{{ base_url_absolute }}">
-                    <img src="{{ theme_url }}/images/footer-logo.png" alt="" />
-                </a>
-            </div>
-          <p class="footer-logo-block">
-                {{ site.footer.text }}
-            </p>
-        </div>
-        <div class="six columns right-cols">
-            <div class="row">
-                <div class="columns">
-                    <h3 class="address">{{ site.footer.address.title }}</h3>
-                    <p>
-                        {% for item in site.footer.address.lines %}
-                           {{ item.line }} <br/>
-                        {% endfor %}
-                        <span class="map-link">
-                          [<a href="https://www.google.com/maps/place/13+Birdwood+Ave,+Papatoetoe,+Auckland+2025/@-36.9806562,174.8625592,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d4dd0565a4b3d:0x75ed0db6ecca111!8m2!3d-36.9806605!4d174.8647479">map</a>]
-                        </span>
-                    </p>
-                </div>
-                <div class="columns">
-                    <h3 class="social">{{ site.footer.social_title }}</h3>
-                    <ul>
-                        {% for item in site.social %}
-                            <li><a href="{{ item.url }}">{{ item.icon|capitalize }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="columns last">
-                    <h3 class="contact">{{ site.footer.contact.title }}</h3>
-                    <ul>
-                        {% for item in site.footer.contact.lines %}
-                            <li><a href="{{ item.url }}">{{ item.text }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <p class="copyright">&copy; 2017 Tom Chester Music | Based on Woo by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> | Converted to GRAV by <a title="Grav" href="http://www.getgrav.org/">Grav Team</a></p>
-        <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#hero"><i class="icon-up-open"></i></a>
-        </div>
+  <div class="row">
+    <div class="six columns info">
+      <div class="footer-logo footer-logo-block">
+        <a href="{{ base_url_absolute }}">
+          <img src="{{ theme_url }}/images/footer-logo.png" alt="Logo" />
+        </a>
+      </div>
+      <p class="footer-logo-block">
+        {{ site.footer.text }}
+      </p>
     </div>
+    <div class="six columns right-cols">
+      <div class="row">
+        <div class="columns">
+          <h3 class="address">{{ site.footer.address.title }}</h3>
+          <p>
+            {% for item in site.footer.address.lines %}
+            {{ item.line }} <br/>
+            {% endfor %}
+            <span class="map-link">
+              [<a href="https://www.google.com/maps/place/13+Birdwood+Ave,+Papatoetoe,+Auckland+2025/@-36.9806562,174.8625592,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d4dd0565a4b3d:0x75ed0db6ecca111!8m2!3d-36.9806605!4d174.8647479">map</a>]
+            </span>
+          </p>
+        </div>
+        <div class="columns">
+          <h3 class="social">{{ site.footer.social_title }}</h3>
+          <ul>
+            {% for item in site.social %}
+            <li>
+              <a href="{{ item.url }}">{{ item.icon|capitalize }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="columns last">
+          <h3 class="contact">{{ site.footer.contact.title }}</h3>
+          <ul>
+            {% for item in site.footer.contact.lines %}
+            <li>
+              <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">
+      &copy; 2017 Tom Chester Music | Based on Woo by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> | Converted to GRAV by <a title="Grav" href="http://www.getgrav.org/">Grav Team</a>
+    </p>
+    <div id="go-top">
+      <a class="smoothscroll" title="Back to Top" href="#hero">
+        <i class="icon-up-open"></i>
+      </a>
+    </div>
+  </div>
 </footer>

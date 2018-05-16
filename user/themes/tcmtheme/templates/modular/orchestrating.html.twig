@@ -1,25 +1,7 @@
 <section id="orchestrating">
     <div class="row section-head">
-      <h2>{{ header.sectiontitle }}</h2>
-      <p>{{ header.sectionblurb|markdown }}</p>
-    </div>
-  <div class="row">
-    <div class="twelve columns">
-      <div id="orchestrating-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-        {% for item in page.header.highlights %}
-        <div class="columns item">
-          <div class="item-wrap">
-            <a href="{{ page.media[item.image].url() }}" data-imagelightbox="a" >
-              {{ page.media[item.image].cropZoom(700, 700).html( item.highlightdescription, item.highlightdescription) }}
-              <div class="overlay"></div>
-              <div class="link-icon">
-                <i class="icon-plus"></i>
-              </div>
-            </a>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
+      <h2>{{ header.title }}</h2>
+      <p>{{ content }}</p>
     </div>
   </div>
 </section>
