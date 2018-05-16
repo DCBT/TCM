@@ -3,9 +3,8 @@ title: Contact
 cache_enable: false
 content:
     items: '@self.modular'
-
 form:
-    action: /
+    action: /home
     name: my-nice-form
     fields:
         -

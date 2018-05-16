@@ -728,7 +728,18 @@ span.f501:before {
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
+
 }
+
+
+#call-to-action img {
+   float:left;
+   height: 100px;
+   margin-right: 22px;
+      padding-top: 22px;
+}
+
+
 #call-to-action h1 span { display: none; }
 /*#call-to-action .header-col h1:before {
    font-family: 'FontAwesome';
@@ -747,6 +758,7 @@ span.f501:before {
    font: 28px/36px 'montserrat-bold', sans-serif;
    color: #FFF;
    margin-bottom: 12px;
+
 }
 #call-to-action h2 a {
    color: inherit;
@@ -995,6 +1007,11 @@ footer {
    font-size: 13px;
    line-height: 24px;
    position: relative;   
+}
+
+
+footer .map-link {
+   text-align: center;
 }
 
 footer a, footer a:visited { color: #E44151; }
