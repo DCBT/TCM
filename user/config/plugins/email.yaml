@@ -4,7 +4,7 @@ from_name: 'Tom Chester Music'
 to: donnellebt@gmail.com
 to_name: 'Tom Chester Music'
 mailer:
-  engine: sendmail
+  engine: smtp
   smtp:
     server: smtp.sendgrid.net
     port: 25

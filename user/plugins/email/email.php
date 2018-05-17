@@ -100,7 +100,7 @@ class EmailPlugin extends Plugin
                     }
                 }
 
-                // Send e-mail
+                // Send e-mail, baby
                 $this->email->send($message);
                 break;
         }
