@@ -941,9 +941,34 @@ span.f501:before {
    padding-bottom: 66px;
    overflow: hidden;
    text-align: center;
+   align-content: center;
       border-top: 2px solid #1E0A0A;
    border-bottom: 2px solid #1E0A0A;
 }
+
+
+
+#contact {
+   margin: 0 auto; 
+}
+
+
+#contact div.g-recaptcha{
+    align-content: center;
+   margin: 0 auto; 
+}
+
+
+#contact input {
+  width: 60%;
+}
+
+
+
+#contact textarea {
+  width: 60%;
+}
+
 
 #contact a, #contact a:visited  { color: #fff; }
 #contact a:hover, #contact a:focus { color: #11ABB0; }

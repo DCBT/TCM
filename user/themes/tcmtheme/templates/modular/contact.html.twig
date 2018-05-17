@@ -1,3 +1,24 @@
-<section id="contact">
-  {{ content }}
+
+<section id="contact" class="contact_form_wrapper">
+  <div class="section_inner">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-lg-8 contact_page_form">
+        <h2>{{page.title}}</h2>
+        <p>{{ header.contact_blurb }}</p>
+
+        <div class="contact_form_wrapper clearfix">
+          {% include "forms/form.html.twig" %}
+        </div>
+        <!--contact_form_wrapper-->
+      </div>
+       <!--col!-->
+
+    </div>
+    <!--row-->
+  </div>
+
 </section>
+
+
+
+

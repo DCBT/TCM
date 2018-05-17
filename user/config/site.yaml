@@ -40,9 +40,7 @@ menu:
   -
     text: Testimonials
     link: '#testimonials'
-  -
-    text: Contact
-    link: '#contact'
+
 footer:
   text: 'Tom Chester Music provides quality musical support in the Auckland area, combining a wealth of knowledge with an unrelenting passion for making music.'
   address:

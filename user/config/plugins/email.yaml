@@ -7,10 +7,10 @@ mailer:
   engine: sendmail
   smtp:
     server: smtp.sendgrid.net
-    port: 465
-    encryption: ssl
+    port: 25
+    encryption: none
     user: apikey
-    password: pw
+    passwordenvvar: TCM_SENDMAIL_APIKEY
   sendmail:
     bin: '/usr/sbin/sendmail -bs'
 content_type: text/html

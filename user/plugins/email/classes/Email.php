@@ -164,7 +164,13 @@ class Email
                     if (!empty($options['user'])) {
                         $transport->setUsername($options['user']);
                     }
-                    if (!empty($options['password'])) {
+
+                    if (!empty($options['passwordenvvar'])) {
+					    Grav::instance()['log']->critical('passwordenvvar');
+                        $transport->setPassword(getenv($options['passwordenvvar']));
+                    }
+                    else if (!empty($options['password'])) {
+                        Grav::instance()['log']->critical('password');
                         $transport->setPassword($options['password']);
                     }
                     break;

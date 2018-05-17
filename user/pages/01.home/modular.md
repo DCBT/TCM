@@ -17,7 +17,6 @@ content:
             - _conducting
             - _orchestrating
             - _testimonials
-            - _contact
 ---
 
 

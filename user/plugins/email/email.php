@@ -57,6 +57,11 @@ class EmailPlugin extends Plugin
      */
     public function onFormProcessed(Event $event)
     {
+
+	     $grav1 = Grav::instance();
+		 $grav1['log']->critical('email onFormProcessed');
+
+
         $form = $event['form'];
         $action = $event['action'];
         $params = $event['params'];

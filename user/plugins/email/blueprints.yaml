@@ -162,7 +162,10 @@ form:
       type: password
       size: medium
       label: SMTP password
-
+    mailer.smtp.passwordenvvar:
+      type: text
+      size: medium
+      label: Environmental Variable Name
     mailer.sendmail.bin:
       type: text
       size: medium

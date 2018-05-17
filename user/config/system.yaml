@@ -32,7 +32,7 @@ pages:
     markdown: true
     twig: false
   twig_first: false
-  never_cache_twig: false
+  never_cache_twig: true
   events:
     page: true
     twig: true
@@ -105,7 +105,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: '0'
+  display: '1'
   log: true
 debugger:
   enabled: true
