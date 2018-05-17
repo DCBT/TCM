@@ -1,7 +1,7 @@
 enabled: true
 from: tomchester13@gmail.com
 from_name: 'Tom Chester Music'
-to: donnellebt@gmail.com
+to: tomchester13@gmail.com
 to_name: 'Tom Chester Music'
 mailer:
   engine: smtp
@@ -16,5 +16,5 @@ mailer:
 content_type: text/html
 debug: true
 bcc: donnellebt@gmail.com
-reply_to: donnellebt@gmail.com
+reply_to: tomchester13@gmail.com
 reply_to_name: 'Tom Chester Music'
