@@ -166,7 +166,7 @@ class Email
                     }
 
                     if (!empty($options['passwordenvvar'])) {
-					    Grav::instance()['log']->critical('passwordenvvar');
+					    Grav::instance()['log']->critical('passwordenvvar=' . $options['passwordenvvar'] . '=' . getenv($options['passwordenvvar']));
                         $transport->setPassword(getenv($options['passwordenvvar']));
                     }
                     else if (!empty($options['password'])) {

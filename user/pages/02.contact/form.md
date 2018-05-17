@@ -46,7 +46,7 @@ form:
                 recaptcha_secret: 6LeXslkUAAAAAG7Njou3KrQIZusKqSgF0N1MgV4y
         -
             email:
-                subject: '[Site Contact Form] {{ form.value.name|e }}'
+                subject: '[Tom Chester Music] {{ form.value.name|e }}'
                 body: '{% include ''forms/data.html.twig'' %}'
         -
             save:
