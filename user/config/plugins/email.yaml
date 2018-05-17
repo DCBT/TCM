@@ -10,7 +10,7 @@ mailer:
     port: 465
     encryption: ssl
     user: apikey
-    password: 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
+    password: pw
   sendmail:
     bin: '/usr/sbin/sendmail -bs'
 content_type: text/html
