@@ -993,6 +993,10 @@ span.f501:before {
         background-color: #DEF7F6;
           padding: 24px;
           width: 50%;
+          
+           margin: 0 auto;
+          margin-top: 96px;
+
     }
        #contact-form div.contact-msg-summary p{  text-align: center;
      
