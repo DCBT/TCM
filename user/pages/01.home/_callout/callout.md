@@ -3,7 +3,7 @@ title: 'Introductory Offer'
 buttons:
     -
         text: 'Sign Up Now'
-        url: '#contact'
+        url: contact
 ---
 
 ##[Introductory Offer](#teaching)
