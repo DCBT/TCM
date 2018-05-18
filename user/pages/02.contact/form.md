@@ -61,5 +61,3 @@ form:
 ---
 
 ## Contact 
-
-Some sample page content

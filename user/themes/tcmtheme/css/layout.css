@@ -935,89 +935,76 @@ span.f501:before {
 /* i. contact Section
 /* ------------------------------------------------------------------ */
 
-#contact {
-   background:  linear-gradient(to bottom, #301010, #1E0A0A);  
+#contact-form {
+   background: #fff url(img/grey.png) ;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
-   text-align: center;
-   align-content: center;
-      border-top: 2px solid #1E0A0A;
-   border-bottom: 2px solid #1E0A0A;
+   color: #301010;
+
 }
 
+.contact-img
+ {
+       padding-top: 46px;
+         padding-left: 96px;
+ }
 
 
-#contact {
+#contact-form {
    margin: 0 auto; 
 }
 
 
-#contact div.g-recaptcha{
+#contact-form div.g-recaptcha{
     align-content: center;
    margin: 0 auto; 
+   padding-bottom: 24px;
 }
 
 
-#contact input {
-  width: 60%;
+#contact-form input {
+  width: 100%;
+
 }
 
 
 
-#contact textarea {
-  width: 60%;
+#contact-form textarea {
+  width: 100%;
+
+
 }
 
 
-#contact a, #contact a:visited  { color: #fff; }
-#contact a:hover, #contact a:focus { color: #11ABB0; }
+#contact-form a, #contact-form a:visited  { color: #fff; }
+#contact-form a:hover, #contact-form a:focus { color: #11ABB0; }
 
-#contact h1 { color: #fff; }
-#contact p {
+#contact-form h2 { color: #301010;    text-align: center;}
+#contact-form p {
    color: #7A7A7A;
    text-align: center;
    padding: 0;
 }
 
-/* mailchimp signup form */
-#mc_embed_signup {
-   background: none;
-   clear: both;
-   display: block;
-   margin: 6px auto 30px auto;
-   width: 70%;
-  	text-align: center;   
-}
-#mc_embed_signup:before,
-#mc_embed_signup:after {
-    content: " ";
-    display: table;
-}
-#mc_embed_signup:after {
-    clear: both;
-}
-#mc_embed_signup input[type="submit"] {
-   float: right;
-   height: 60px;
-   margin: 0;
-   padding: 0 20px;
-   font-size: 16px;
-   line-height: 60px;
-   width: 47%;  
-}
-#mc_embed_signup input[type="email"] {
-   display: inline;
-   float: left;
-   height: 60px;
-   margin: 0;
-   padding: 18px 20px;
-   font-size: 18px;
-   line-height: 24px;
-   font-family: 'montserrat-regular',sans-serif;
-   width: 47%;  
-   text-align: center;
-}
+
+
+
+    #contact-form div.error {
+        border: 1px dotted #301010;
+        background-color: #FFF7F8;
+          padding: 24px;
+    }
+       #contact-form div.error p{  text-align: center;
+        font-weight: bold;
+        color: #D2172A;
+        font: 13px/24px 'opensans-semibold', sans-serif;
+        margin: 0;
+      
+    }
+
+
+
 
 
 /* ------------------------------------------------------------------ */

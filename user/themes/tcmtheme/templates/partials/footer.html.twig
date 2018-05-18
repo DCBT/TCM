@@ -35,9 +35,14 @@
           <h3 class="contact">{{ site.footer.contact.title }}</h3>
           <ul>
             {% for item in site.footer.contact.lines %}
-            <li><a href="{{ item.url }}">{{ item.text }}</a></li>
-            {% endfor %}
-          </ul>
+              {% if '@' in item.text %}
+              <li><a href="mailto:{{ item.url }}">{{ item.text }}</a></li>
+              {% else %}
+              <li>{{ item.text }}</li>
+          {% endif %}
+
+          {% endfor %}
+        </ul>
         </div>
       </div>
     </div>

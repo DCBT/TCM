@@ -1,8 +1,17 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-<section id="contact">
+<section id="contact-form">
     {{ content }}
+	<div class="row">
+	<div class="bgrid-halves s-bgrid-halves">
+	   <div class="column">
     {% include "forms/form.html.twig" %}
+	</div>
+	   <div class="column contact-img">
+	    {{ page.media["contact.jpg"].html() }}
+	   </div>
+	</div>
+	</div>
 </section>
 {% endblock %}

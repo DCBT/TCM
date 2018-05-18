@@ -563,7 +563,7 @@ select {
    display: block;
    padding: 18px 15px;
    margin: 0 0 24px 0;
-   border: 0;
+
    outline: none;
    vertical-align: middle;
    min-width: 225px;
@@ -571,9 +571,9 @@ select {
    font-size: 15px;
    line-height: 24px;
 	color: #647373;
-	background: #D3D9D9;
+	background: #FFF;
    border-radius: 3px;
-
+      border: 1px solid #301010;
 }
 
 /* select { padding: 0;
@@ -585,16 +585,19 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
    color: #B3B7BC;
-	background-color: #383D41;
+	background-color: #DEF7F6;
 }
 
-textarea { min-height: 220px; }
+textarea { min-height: 220px;
+           background-color: #FFF;
+           border: 1px solid #301010;
+}
 
 label,
 legend {
    font: 16px/24px 'opensans-bold', sans-serif;
 	margin: 12px 0;
-   color: #3d4145;
+   color: #301010;
    display: block;
 }
 label span,
@@ -606,7 +609,7 @@ legend span {
 input[type="checkbox"],
 input[type="radio"] {
    font-size: 15px;
-   color: #3d4145;
+   color: #301010;
 }
 
 input[type="checkbox"] { display: inline; }

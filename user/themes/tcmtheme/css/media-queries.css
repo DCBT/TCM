@@ -252,6 +252,14 @@
    #screenshots-wrapper .columns { margin-bottom: 36px; }
 
 
+   .contact-img
+ {
+     display: none;
+ }
+
+
+
+
    /* Testimonials Section
    ------------------------------------------------------------------- */
    #testimonials .quote-left,      
