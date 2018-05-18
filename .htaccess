@@ -12,10 +12,10 @@
   # along the lines of: RewriteBase /<your_sub_folder>
     ##
 
-    RewriteBase /
-    RewriteEngine On
-    RewriteCond %{HTTPS} off
-    RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
+   RewriteBase /
+ #   RewriteEngine On
+  #  RewriteCond %{HTTPS} off
+  #  RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
 
 
     ## End - RewriteBase
