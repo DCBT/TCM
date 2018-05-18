@@ -7,7 +7,7 @@
 {% block content %}
 <section id="contact-form">
     {{ content|raw }}
-
+	<div class="contact-msg-summary">
     {% if form %}
         {% include 'partials/form-messages.html.twig' %}
 
@@ -17,5 +17,6 @@
     {% else %}
         <div class="notices warning yellow"><p>{{ 'PLUGIN_FORM.NO_FORM_DATA'|t }}</p></div>
     {% endif %}
+	</div>
 </section>
 {% endblock %}
