@@ -992,11 +992,10 @@ span.f501:before {
         border: 1px dotted #301010;
         background-color: #DEF7F6;
           padding: 24px;
+          width: 50%;
     }
        #contact-form div.contact-msg-summary p{  text-align: center;
-        font-weight: bold;
-        color: #D2172A;
-        font: 13px/24px 'opensans-semibold', sans-serif;
+     
         margin: 0;
       
     }

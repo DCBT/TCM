@@ -188,6 +188,14 @@
    .header-social { display: none; }
 
 
+
+   
+    #contact-form div.contact-msg-summary{
+        
+          width: 80%;
+    }
+
+
    /* Header Styles
    -------------------------------------------------------------------- */
    header .logo { margin-right: 36px; }
