@@ -5,6 +5,7 @@
 {% endif  %}
 
 {% block content %}
+<section id="contact-form">
     {{ content|raw }}
 
     {% if form %}
@@ -16,5 +17,5 @@
     {% else %}
         <div class="notices warning yellow"><p>{{ 'PLUGIN_FORM.NO_FORM_DATA'|t }}</p></div>
     {% endif %}
-
+</section>
 {% endblock %}
